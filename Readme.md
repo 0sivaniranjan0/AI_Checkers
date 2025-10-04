@@ -2,9 +2,7 @@
 
 A classic game of Checkers built with Pygame, where you can test your skills against two different AI opponents: a standard Minimax algorithm and a more optimized Alpha-Beta Pruning algorithm.
 
-![Gameplay Screenshot](https://i.imgur.com/gK4f6gW.png)
-
-*(You should replace the image link above with a GIF or screenshot of your own game running!)*
+<img src="Screenshots/Homescreen.png" alt="Gameplay Screenshot" width=30%> &nbsp;&nbsp; <img src="Screenshots/gameplay.png" alt="Gameplay Screenshot" width=30%> &nbsp;&nbsp; <img src="Screenshots/Winscreen.png" alt="Gameplay Screenshot" width=30%>
 
 ## Features
 
@@ -24,8 +22,8 @@ To run this game on your local machine, follow these steps.
 **1. Clone the repository:**
 
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone https://github.com/0sivaniranjan0/AI_Checkers.git
+cd AI_Checkers
 ```
 
 **2. Create a virtual environment (recommended):**
@@ -85,4 +83,5 @@ The AI logic is located in `checkers.py`.
 
 -   **`minimax()`**: This function implements the recursive Minimax algorithm. It explores the game tree to a certain depth to find the optimal move for the AI.
 -   **`alphabeta()`**: This function implements Alpha-Beta Pruning. It is an optimization of Minimax that avoids evaluating branches of the game tree that are not relevant, making it much faster.
+
 -   **`evaluate()`**: This is the heuristic function used by the AI to score the state of the board. The current evaluation is based on the number of remaining pieces and kings for each side.
